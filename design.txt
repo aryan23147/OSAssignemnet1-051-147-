@@ -1,0 +1,17 @@
+Design
+First we created a file descriptor of our 32 bit elf file of fib
+Then we created space for elf header in memory and then read it value and stored it in our heap memory
+After that we checked whetehr our elf file is valid or not using elf header
+Then we moved onto the programme headers
+We created spac3 for programme headers in our heap memory
+We moved our fd to start of programme headers this time more like an array
+And then read its value from memory
+Then we will identify the segment in which entry point our programme is stored
+And then using mmap stored it in a memory from which it can get directly executed
+Use the same read func to read its value
+Then running that start_func in our programme
+
+Contribution
+We both worked together during the work so we both have contributed equally
+Aryan Singhal 2023147
+Aditya Verma 2023051
